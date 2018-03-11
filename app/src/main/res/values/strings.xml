@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Tollpay</string>
+    <string name="home_from">From:</string>
+    <string name="home_to">To:</string>
+    <string name="home_text">Select your trip</string>
+    <string name="home_nextbutton">Check Trip Cost</string>
+
+    <string name="detail">TRIP DETAILS</string>
+    <string name="detail_from">From </string>
+    <string name="detail_to">To </string>
+    <string name="detail_cost">Trip Cost</string>
+    <string name="detail_button">MAKE PAYMENT</string>
+    <string name="trip_id_text">Trip ID</string>
+
+    <string name="payment_text">Payment Done Successfully!!!</string>
+    <string name="divide_text">-</string>
+
+    <string-array name="fromlist">
+        <item>Select</item>
+        <item>Gandipet</item>
+        <item>Gachibowli</item>
+        <item>Nanakramguda</item>
+        <item>Patancheru</item>
+        <item>Sultanpur</item>
+        <item>Medchal</item>
+        <item>Shamirpet</item>
+        <item>Keesara</item>
+        <item>Ghatkesar</item>
+    </string-array>
+    <string-array name="tolist">
+        <item>Select</item>
+        <item>Vikarabad Highway</item>
+        <item>International Airport</item>
+        <item>Nagarjunasagar Highway</item>
+        <item>Bangalore Highway</item>
+        <item>Srisailam Highway</item>
+        <item>Vijayawada Highway</item>
+        <item>Warangal Highway</item>
+        <item>Nagpur Highway</item>
+        <item>Mumbai/Pune Highway</item>
+    </string-array>
+
+
+
+</resources>

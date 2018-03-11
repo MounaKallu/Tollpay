@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_pic"
+    tools:context="com.mouna.tollpay.Activity2">
+
+    <TextView
+        android:id="@+id/detail_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:text="@string/detail"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+         />
+    <TextView
+        android:id="@+id/from_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="15sp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:text="@string/detail_from"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/to_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_to"
+        android:layout_below="@id/from_detail"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="15sp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        />
+
+    <TextView
+        android:id="@+id/cost_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewPrice"
+        android:layout_alignEnd="@+id/detail_button"
+        android:layout_alignRight="@+id/detail_button"
+        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:text="@string/detail_cost"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/textviewFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:layout_toRightOf="@id/from_detail"
+
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/from_detail"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textviewTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_alignBaseline="@+id/to_detail"
+        android:layout_alignBottom="@+id/to_detail"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/to_detail"
+        android:layout_toRightOf="@+id/to_detail"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/detail_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="#000000"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="60.00"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/detail_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:text="@string/detail_button"
+        android:textSize="24sp" />
+</RelativeLayout>
